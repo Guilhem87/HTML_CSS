@@ -1,0 +1,26 @@
+h1 {
+    color:rgb(0, 89, 255)
+}
+p {
+    color: rgb(63, 182, 88);
+}
+a:active {
+    color:#a1487f;
+}
+a:visited {
+    color:orange;
+}
+a {
+    text-decoration: none;
+    color:#8b0000;
+}
+a:hover {
+    background-color: #8b0000;
+    color: crimson;
+}
+ul {
+    color:chartreuse;
+}
+body {
+    background: linear-gradient(90deg, #cf4141, #bf742e);
+}
