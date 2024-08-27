@@ -4,14 +4,16 @@ h1 {
 h1:hover {
     color: green;
 }
+/*mettre un background en gris quand on clique sur l'element*/
 p:active {
     background-color: gray;
 }
+/*lien déja visité en gris*/
 a:visited {
     position:fixed; bottom: 0; right: 0;
     color: lightgray;
 }
-a:active {
+a {
     color: orange;
 }
 img:hover {
