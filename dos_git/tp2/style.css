@@ -1,0 +1,93 @@
+.h1 {
+    justify-self: right;
+}
+nav {
+    display: flexbox;
+    border: solid blue;
+    border-radius: 20px;
+    border-width: 2px;
+    grid-column: 2;
+    grid-row: 2;
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+}
+#utilisateur {
+    list-style-type: none;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+}
+#carré {
+    grid-column: 1;
+    grid-row: 2;
+    border:solid rgb(0, 0, 255);
+    border-radius: 20px;
+    border-width: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+.text2, .text4, .text6 {
+    background-color: lightgrey;
+    grid-column: 2;
+}
+.text1, .text3, .text5 {    
+    grid-column: 1;
+}
+.text2 {
+    grid-row: 2;
+}
+.text3 {
+    grid-row: 3;
+}
+.text4 {
+    grid-row: 4;
+}
+.text5 {
+    grid-row: 5;
+}
+.text6 {
+    grid-row: 6;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 10px;
+    text-align: center;
+}
+.a {
+    color: grey;
+    border: solid black;
+    border-radius: 20px;
+    border-width: 2px;
+    height: 50px;
+    width: 1100px;
+    align-items: center;
+    display: flex;
+}
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(0, 0, 0);
+    border-width: 1px;
+    height: 50px;
+    background-color: lightgrey;
+}
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+

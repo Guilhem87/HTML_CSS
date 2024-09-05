@@ -1,0 +1,33 @@
+/*padding espace ext marging espace int*/
+.txt1 {
+    border: solid 2px rgb(92, 190, 92); height: 100px;
+    background-color: rgb(196, 188, 188);
+    padding: 20px;
+    margin: 0;
+}
+
+.txt3 {
+    border: solid 2px green;
+    background-color: rgb(197, 188, 188);
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+p {
+    color: black;
+}
+body {
+    /*background-image:repeating-radial-gradient(20px,rgb(49, 49, 180), red, white,yellow 20%,green,purple,black,rgb(0, 162, 255) 70%);*/
+    background-color: purple;
+    margin: 0;
+    padding: 0;
+}
+.txt2 {
+    border: solid 2px green;
+    background-color: rgb(196, 188, 188);
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px
+}
+/*overflow pour adapter le texte 
+word-wrap pour obliger le texte a aller a la ligne*/

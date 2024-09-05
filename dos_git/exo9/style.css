@@ -1,0 +1,37 @@
+div {
+margin: 1rem 0;
+}
+h1 {
+    text-align: center;
+    color: rgb(224, 91, 147);
+}
+body {
+    color: rgb(224, 91, 147);
+    background-color: black;
+    
+}
+input {
+    display: inline-block;
+}
+label {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+}
+textarea {
+    box-shadow: 2px 2px 2px rgb(224, 91, 147);
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #858585;
+    font-family: fantasy
+}
+.div12 {
+    line-height: 50px;
+}
+body {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/007/469/394/large/gergo-hizsnyik-black-rose-scythe-jpeg.jpg?1506356397)
+}
+fieldset {
+    border: pink double;
+}

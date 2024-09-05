@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://th.bing.com/th/id/R.162db4ab260f2e3bd99ba3307d8bbbc0?rik=3aaSlHlSJLPTDw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fMHEmKiH.jpg&ehk=Gwy5zDIJijis3Ac%2b0%2fBlfc%2bbBIAIkD8%2b1KclKmlBQH4%3d&risl=&pid=ImgRaw&r=0" width="800" height="200"><br/>
+        <h1><strong>Bienvenu sur les sites des fans de DBZ</strong></h1><br/>
+        <nav class="crumbs">
+            <ol>
+                <li class="nav1"><a href="index.html">Accueil</a></li>
+                <li class="nav2"><a href="#ancre">Blog</a></li>
+                <li class="nav3"><a href="#">Galerie</a></li>
+                <li class="nav4"><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+    <section>
+        <form action="dansmonmonde.php" method="post" class="form-example">
+            <fieldset>
+                <legend>DBZ</legend>
+                <div class="form">
+                    <label for="nom">Nom<span class="obligatoire">*</span>:</label>
+                    <input type="text" placeholder="Delmas" name="nom" id="nom" maxlength="20" minlength="2" required>
+                </div>
+                <div>
+                    <label for="e.mail">E.mail<span class="obligatoire">*</span>:</label>
+                    <input type="text" id="e.mail" placeholder="delmasG@yahoo.fr" name="email" required>
+                </div>
+                <div class="div12">
+                    <label class="txt1" for="texte1">Laissez un commentaire:</label><br/>
+                    <textarea name="texte1" id="texte1" placeholder="Vous pouvez taper du texte" rows="10" cols="70">dbz c'est trop bien</textarea>
+                </div>
+                <div>
+                    <input type="checkbox" checked><label for="checkbox">Envoyer une copie par E.mail</label>
+                </div>
+                <div>
+                    <div><input type="submit"><label for="submit"></label><input type="reset"><label for="reset"></label></div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ol class="menu1">
+            <li class="menu"><a href="">Menu1</a></li>
+            <li class="menu"><a href="">Menu2</a></li>
+            <li class="menu"><a href="">Menu3</a></li>
+            <li class="menu"><a href="">Menu4</a></li>
+        </ol>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FORMULAIRE POUR SITE</h1>
+    <form action="dansmonmonde.php" method="post" class="form-example">
+        <fieldset>
+            <legend>Info Personnelles</legend>
+        <div class="form-example">
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prénom" placeholder="Entrez un prénom" id="prenom" maxlength="20" minlength="2">
+        </div>
+        <div class="form-example">
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" placeholder="Ex: Delmas" id="nom" maxlength="20" minlength="2">
+        </div>
+        <div class="form-example">
+            <label for="E-mail">E.mail</label>
+            <input type="text" name="email" placeholder="Ex: monmail@moncul.com" id="mail">
+        </div>
+        <div>
+            <label for="num">Numéro</label>
+            <input type="tel" name="num" placeholder="Ex: 00.11.22.33.44" id="num">
+        </div>
+        <div>
+            <label for="mdp">Mot de passe:</label>
+            <input type="password" name="mdp" placeholder="entrez votre mot de passe" id="mdp" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="age" name="age" placeholder="Ex: 15 ans" id="age">
+        </div>
+        <div class="div12">
+            <label class="txt1" for="texte1">Laissez un commentaire:</label><br/>
+            <textarea name="texte1" id="texte1" placeholder="Vous pouvez taper du texte" rows="10" cols="70">ok i tried...</textarea>
+        </div>
+        <div>
+            <label for="date">Date de mon commentaire:</label>
+            <input type="date" name="date" placeholder="jj/mm/aaaa">
+        </div>
+        <div>
+            <label for="file">Ma Photo:</label>
+            <input type="file" accept=".png, .jpg, .gif" id="file">
+        </div>
+        </fieldset>
+        <div>
+            <fieldset>
+                <legend>Vous préférez:</legend>
+                <input type="checkbox"><label for="checkbox">Le CSS</label><br/>
+                <input type="checkbox" checked><label for="checkbox2">Le HTML</label><br/>
+                <input type="checkbox"><label for="checkbox">Le JavaScript</label><br/>
+                <input type="checkbox"><label for="checkbox">Ne rien faire</label>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Vous vous levez:</legend>
+                <div><input type="radio" name="box" checked><label for="radio">Le matin</label></div>
+                <div><input type="radio" name="box"><label for="radio">Le midi</label></div>
+                <div><input type="radio" name="box"><label for="radio">Le soir</label></div>
+                <div><input type="radio"name="box"><label for="radio">En retard!</label/></div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Fin du Formulaire</legend>
+            <label for="select">Vous en avez assez?</label>
+                <select name="select" id="select">
+                    <optgroup label="groupe1">
+                        <option value="">J'en veux plus</option>
+                        <option value="">C'est super</option>
+                    </optgroup>
+                    <optgroup label="groupe2">
+                        <option value="">J'en ai marre</option>
+                        <option value="">Pitié !</option>                    
+                    </optgroup>
+                    <optgroup label="group3" disabled>
+                        <option value="">test1</option>
+                        <option value="">test2</option>
+                    </optgroup>
+                </select>
+        <div>
+            <input type="image" id="image" height="70px" width="100px" alt="Envoyer" src="https://www.bing.com/th/id/OGC.0bd97ba180a00ca929fa5218365ac8a2?pid=1.7&rurl=https%3a%2f%2fmedia1.tenor.com%2fm%2f5SP9u4dI-XwAAAAC%2fmui-dbh.gif&ehk=UUkDCg8Oh%2b70%2fnREB2PQls1A4%2fwWjf%2b%2fs9X%2fMQ51h14%3d">
+            <input type="image" id="image2" height="70px" width="100px" alt="Reset" src="https://media.tenor.com/n1u9hh3cHbQAAAAM/goku-teleport.gif">
+        </div>
+            </fieldset>
+        </div>
+            
+        
+        </form>
+        
+        <form><button>Sauvegarder</button></form>
+
+    
+</body>
+</html>

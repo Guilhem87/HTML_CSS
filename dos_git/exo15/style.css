@@ -1,0 +1,67 @@
+body {
+    margin-left: 200px;
+    /*display: flex;*/
+}
+#SG:hover { 
+    transform: scale(2);
+    transform-origin: 0 0;
+}
+#SG:active {
+    transform: rotate(-179.9deg);
+    transition: 3s;
+}
+#SG {
+    transition: 3s;
+}
+img {
+    width: 300px;
+}
+.goku:hover {
+    transform:skewX(40deg);
+    transition: 3s;
+}
+.goku:active {
+    transform: translateX(200px);
+}
+.a {
+    transform: scale(0.5) translateX(20px) rotate(35deg) skewY(10deg);
+    /*transform: translateX(20px); si on veut que toutes les données sont prises en compte Superbalise*/
+}
+.overlay-image {
+    position: relative; /*va faire que l'image prend toute la place de son contenant*/
+    width: 500px; /* Ajustez selon vos besoins */
+}
+.image {
+    display: block;
+    width: 100%;
+}
+
+.hover-image {
+    position: absolute;/*permet de superposé la seconde image sur la premiere avec le top0 et left0*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.overlay-image:hover .hover-image {
+    opacity: 1;
+    transform: scale(1.5) translateX(30px);
+}
+.dbz {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    /*transition-property: background-color;*/
+    transition-property: width height;
+    transition-duration: 1s;
+    transition-delay: 2s;
+}
+.dbz:hover {
+    background-color: red;
+    /*transition-property: background-color;*/
+    width: 400px;
+    height: 300px;
+}

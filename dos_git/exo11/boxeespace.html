@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="case">
+        <div><h1><strong>Connexion</strong></h1></div>
+        <form action="dansmonmonde.php" method="post" class="form">  
+            <div class="form-example">
+                <div class="pseudo"><label for="prenom">Pseudo:</label>
+                <input type="text" name="pseudo" placeholder="Entrez un pseudo"id="pseudo" maxlength="20" minlength="2"></div>
+            </div>
+            <div>
+                <label for="mdp">Mon Mot de passe:</label>
+                <input type="password" name="mdp" placeholder="entrez votre mot de passe" id="mdp" required>
+            <div class="checkb">
+                <input checked type="checkbox"><label for="checkbox">Se souvenir de moi</label>
+            </div>
+            <div class="bouton">
+                <button type="submit">Connexion</button>
+                <button type="button" onclick="window.history.back();">Retour</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

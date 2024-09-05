@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    border: double 5px blueviolet;
+    box-shadow: 10px 10px 30px blue;
+}
+
+td,
+th {
+    border: solid 2px black;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+th {
+    background-color: lightskyblue;
+}
+a {/*texte en arc en ciel*/
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+}
+.texte {/*fond en arc en ciel*/
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+    text-decoration: underline;color: black;
+}
+div {
+    
+
+}

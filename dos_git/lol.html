@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="lol.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Site Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form action="fictive_page.php" method="post">
+            <fieldset>
+                <legend>Formulaire de Contact</legend>
+                <div>
+                    <label for="name">Nom* :</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required minlength="2" maxlength="20">
+                </div>
+                <div>
+                    <label for="email">Email* :</label>
+                    <input type="email" id="email" name="email" placeholder="Votre email" required>
+                </div>
+                <div>
+                    <label for="comment">Commentaire :</label>
+                    <textarea id="comment" name="comment" rows="10" cols="70" placeholder="Votre commentaire"></textarea>
+                </div>
+                <div>
+                    <label for="copy">Envoyer une copie :</label>
+                    <input type="checkbox" id="copy" name="copy" checked>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Réinitialiser">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Mon Site Web</p>
+    </footer>
+</body>
+</html>

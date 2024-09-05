@@ -1,0 +1,58 @@
+body {
+    background: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #EF233C;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: Impact, sans-serif;
+}
+
+h3 {
+    color: #2B2D42;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+article {
+    border: 1px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #8D99AE;
+}
+
+footer {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    color: #D90429;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: #2B2D42;
+}
+
+label[for="name"]::after,
+label[for="email"]::after {
+    content: " *";
+    color: red;
+}
